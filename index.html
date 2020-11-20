@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Satriya Cinema</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="script.js">
+	<!-- <style media="screen">
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		.container{
+			position: relative;
+		}
+		.thumLg{
+			position: absolute;
+			top: 20px;
+			left: 80px;
+			box-shadow: 5px 5px 30px #000
+		}
+	</style> -->
+</head>
+<body>
+	<header>
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Search Movie</a></li>
+					<li><a href="#">Category</a></li>
+				</ul>
+			</nav>
+	</header>
+
+	<!-- Slideshow -->
+	<div class="slideshow-container">
+		<div class="mySlides fade">
+		  <img src="./img/widow.png">
+		</div>
+
+		<div class="mySlides fade">
+		  <img src="./img/fastfurios.png">
+		</div>
+
+		<div class="mySlides fade">
+		  <img src="./img/avanger.png">
+		</div>
+
+		</div>
+		<br>
+
+		<div style="text-align:center">
+		  <span class="dot"></span> 
+		  <span class="dot"></span> 
+		  <span class="dot"></span> 
+	</div>
+
+	<!-- Section -->
+	<section>
+		<h1 class="title"><b>Top Rated Movies in This Year</b></h1>
+		<div class="row cf">
+			<div class="con col-xs-21 col-sm-10 col-md-9 col-lg-6 col-xl-6">
+				<img src="./img/tcw.png" alt="" class="">
+				<div class="desc">
+					<h3><b><a onclick="document.getElementById('popup').style.display='block';document.getElementById('bg').style.display='block'" href="javascript:void(0)">The Call of the Wild</a></b></h3>
+					<div id="bg" class="bg_hitam"></div>
+					<div id="popup" class="kotak">
+						<img src="./img/tcw.png">
+						<a onclick="document.getElementById('popup').style.display='none';document.getElementById('bg').style.display='none'" href="javascript:void(0)" style="text-decoration: none; color: #000"> TUTUP</a>
+					</div>
+					<p><span><img src="./img/star.png" alt=""></span>6.8 / 10</p>
+				</div>
+			</div>
+			<div class="con col-xs-21 col-sm-10 col-md-9 col-lg-6 col-xl-6">
+				<img src="./img/sonic.png" alt="">
+				<div class="desc">
+					<h3><b><a onclick="document.getElementById('popup').style.display='block';document.getElementById('bg').style.display='block'" href="javascript:void(0)">Sonic the Hedgehog</a></b></h3>
+					<div id="bg" class="bg_hitam"></div>
+					<div id="popup" class="kotak">
+						<img src="./img/sonic.png">
+						<a onclick="document.getElementById('popup').style.display='none';document.getElementById('bg').style.display='none'" href="javascript:void(0)" style="text-decoration: none; color: #000"> TUTUP</a>
+					</div>
+					<p><span><img src="./img/star.png" alt=""></span>6.5 / 10</p>
+				</div>
+			</div>
+			<div class="con col-xs-21 col-sm-10 col-md-9 col-lg-6 col-xl-6">
+				<img src="./img/bb.jpg" alt="">
+				<div class="desc">
+					<h3><b><a onclick="document.getElementById('popup').style.display='block';document.getElementById('bg').style.display='block'" href="javascript:void(0)">Bad Boys For Life</a></b></h3>
+					<div id="bg" class="bg_hitam"></div>
+					<div id="popup" class="kotak">
+						<img src="./img/tcw.png">
+						<a onclick="document.getElementById('popup').style.display='none';document.getElementById('bg').style.display='none'" href="javascript:void(0)" style="text-decoration: none; color: #000"> TUTUP</a>
+					</div>
+					<p><span><img src="./img/star.png" alt=""></span>6.6 / 10</p>
+				</div>
+			</div>
+		</div>
+		<div class="row cf">
+			<div class="con col-xs-21 col-sm-10 col-md-9 col-lg-6 col-xl-6">
+				<img src="./img/bop.png" alt="">
+				<div class="desc">
+					<h3><b><a onclick="document.getElementById('popup').style.display='block';document.getElementById('bg').style.display='block'" href="javascript:void(0)">Birds of Prey</a></b></h3>
+					<div id="bg" class="bg_hitam"></div>
+					<div id="popup" class="kotak">
+						<img src="./img/tcw.png">
+						<a onclick="document.getElementById('popup').style.display='none';document.getElementById('bg').style.display='none'" href="javascript:void(0)" style="text-decoration: none; color: #000"> TUTUP</a>
+					</div>
+					<p><span><img src="./img/star.png" alt=""></span>6.1 / 10</p>
+				</div>
+			</div>
+			<div class="con col-xs-21 col-sm-10 col-md-9 col-lg-6 col-xl-6">
+				<img src="./img/onward.png" alt="">
+				<div class="desc">
+					<h3><b><a onclick="document.getElementById('popup').style.display='block';document.getElementById('bg').style.display='block'" href="javascript:void(0)">Onward</a></b></h3>
+					<div id="bg" class="bg_hitam"></div>
+					<div id="popup" class="kotak">
+						<img src="./img/tcw.png">
+						<a onclick="document.getElementById('popup').style.display='none';document.getElementById('bg').style.display='none'" href="javascript:void(0)" style="text-decoration: none; color: #000"> TUTUP</a>
+					</div>
+					<p><span><img src="./img/star.png" alt=""></span>7.4 / 10</p>
+				</div>
+			</div>
+			<div class="con col-xs-21 col-sm-10 col-md-9 col-lg-6 col-xl-6">
+				<img src="./img/invisible.png" alt="">
+				<div class="desc">
+					<h3><b><a onclick="document.getElementById('popup').style.display='block';document.getElementById('bg').style.display='block'" href="javascript:void(0)">The Invisible Man</a></b></h3>
+					<div id="bg" class="bg_hitam"></div>
+					<div id="popup" class="kotak">
+						<img src="./img/tcw.png">
+						<a onclick="document.getElementById('popup').style.display='none';document.getElementById('bg').style.display='none'" href="javascript:void(0)" style="text-decoration: none; color: #000"> TUTUP</a>
+					</div>
+					<p><span><img src="./img/star.png" alt=""></span>7.1 / 10</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Category -->
+	<div class="category">
+		<h1 class="title"><b>Top Category</b></h1>
+		<div class="row-cat cf">
+			<div class="btnCat col-xs-21 col-sm-10 col-md-9 col-lg-5 col-xl-3">
+				<button type="button"><span>Action</span></button>
+			</div>
+			<div class="btnCat col-xs-21 col-sm-10 col-md-9 col-lg-5 col-xl-3">
+				<button type="button"><span>Adventure</span></button>
+			</div>
+			<div class="btnCat col-xs-21 col-sm-10 col-md-9 col-lg-5 col-xl-3">
+				<button type="button"><span>Comedy</span></button>
+			</div>
+			<div class="btnCat col-xs-21 col-sm-10 col-md-9 col-lg-5 col-xl-3">
+				<button type="button"><span>Drama</span></button>
+			</div>
+			<div class="btnCat col-xs-21 col-sm-10 col-md-9 col-lg-5 col-xl-3">
+				<button type="button"><span>Horror</span></button>
+			</div><div class="btnCat col-xs-21 col-sm-10 col-md-9 col-lg-5 col-xl-3">
+				<button type="button"><span>Romance</span></button>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		var slideIndex = 0;
+		showSlides();
+
+		function showSlides() {
+		  var i;
+		  var slides = document.getElementsByClassName("mySlides");
+		  var dots = document.getElementsByClassName("dot");
+		  for (i = 0; i < slides.length; i++) {
+		    slides[i].style.display = "none";  
+		  }
+		  slideIndex++;
+		  if (slideIndex > slides.length) {slideIndex = 1}    
+		  for (i = 0; i < dots.length; i++) {
+		    dots[i].className = dots[i].className.replace(" active", "");
+		  }
+		  slides[slideIndex-1].style.display = "block";  
+		  dots[slideIndex-1].className += " active";
+		  setTimeout(showSlides, 3000);
+		}
+	</script>
+</body>
+</html>
